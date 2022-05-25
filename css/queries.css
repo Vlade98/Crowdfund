@@ -82,6 +82,11 @@
     position: relative;
   }
 
+  section {
+    width: 80%;
+    padding: 3rem 2rem;
+  }
+
   .buttonRow {
     display: flex;
     justify-content: center;
@@ -132,5 +137,10 @@
 
   .about button {
     padding: 1.25rem 2rem;
+  }
+
+  .modal {
+    width: 70%;
+    left: 15%;
   }
 }
