@@ -23,8 +23,6 @@ const specificButtons = {
 };
 const check = document.querySelectorAll(".left input");
 
-let pledge = 0;
-
 function toggleModal() {
   modal.classList.toggle("active");
 }
@@ -90,6 +88,8 @@ function updateStock() {
     }
   }
 }
+
+let pledge = 0;
 
 continueButtons.forEach(b => {
   b.addEventListener("click", event => {

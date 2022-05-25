@@ -21,6 +21,8 @@ input::-webkit-inner-spin-button {
 html {
   font-family: "Commissioner", sans-serif;
   font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
